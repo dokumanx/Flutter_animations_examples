@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_animations/flip_animation.dart';
+import 'package:flutter_animations/johannes_mike_examples/animated_list_example.dart';
+import 'file:///D:/flutter_sample_projects/flutter_animations/lib/johannes_mike_examples/advent_door.dart';
+import 'package:flutter_animations/tensor_examples/custom_scroll_simulation.dart';
 
 void main() {
   runApp(MyApp());
@@ -15,7 +17,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: MainPage(),
+      home: AnimatedListExample(),
     );
   }
 }
